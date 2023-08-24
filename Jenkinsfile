@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/FahadMalik36/Petclinic.git'
+                git branch: 'feature2', url: 'https://github.com/FahadMalik36/Petclinic.git'
             }
         }
         
